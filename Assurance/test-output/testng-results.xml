@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23735" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
+  <suite name="Default suite" duration-ms="16784" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:30 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23735" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
-      <class name="com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining">
-        <test-method status="PASS" signature="methodTest()[pri:0, instance:com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining@6321e813]" name="methodTest" duration-ms="23641" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
+    <test name="Default test" duration-ms="16784" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:30 EST">
+      <class name="com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame@6737fd8f]" name="setup" is-config="true" duration-ms="11397" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:24 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTest -->
-      </class> <!-- com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="iFrameTestLinkTwo()[pri:2, instance:com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame@6737fd8f]" name="iFrameTestLinkTwo" duration-ms="5254" started-at="2020-12-26T16:36:24 EST" finished-at="2020-12-26T16:36:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iFrameTestLinkTwo -->
+      </class> <!-- com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
