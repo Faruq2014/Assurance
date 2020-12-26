@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23735" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23735" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
+      <class name="com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining">
+        <test-method status="PASS" signature="methodTest()[pri:0, instance:com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining@6321e813]" name="methodTest" duration-ms="23641" started-at="2020-12-26T12:53:21 EST" finished-at="2020-12-26T12:53:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTest -->
+      </class> <!-- com.SeleniumAssesment.InterfaceMethodChaining.TimeOutMethodChaining -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
