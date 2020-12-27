@@ -69,11 +69,11 @@ public class WindowInterfaceMethodChaining {
 	//@Test
 		public void setsize()  {
 		// new Dimension (width, height);
-		Dimension newDimension = new Dimension(700, 600);
+		Dimension newDimension = new Dimension(200, 300);
 		driver.manage().window().setSize(newDimension);
 		}
 	
-	@Test
+	//@Test
 	public void getsize() {
 	// new Dimension (width, height);
 	//Dimension newDimension = new Dimension(700, 600);

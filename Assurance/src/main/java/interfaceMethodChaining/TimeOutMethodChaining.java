@@ -32,6 +32,7 @@ public class TimeOutMethodChaining implements Timeouts{
 		// OR
 
 			// no need getting reference of Options and Timeout interfaces separately
+			
 	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			return this;
 		}

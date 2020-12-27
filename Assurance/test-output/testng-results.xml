@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16784" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:30 EST">
+  <suite name="Default suite" duration-ms="19576" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:14:02 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16784" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:30 EST">
-      <class name="com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame@6737fd8f]" name="setup" is-config="true" duration-ms="11397" started-at="2020-12-26T16:36:13 EST" finished-at="2020-12-26T16:36:24 EST">
+    <test name="Default test" duration-ms="19576" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:14:02 EST">
+      <class name="com.Assurance.Topmost.Iframe.TitleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="setup" is-config="true" duration-ms="14113" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:13:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="iFrameTestLinkTwo()[pri:2, instance:com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame@6737fd8f]" name="iFrameTestLinkTwo" duration-ms="5254" started-at="2020-12-26T16:36:24 EST" finished-at="2020-12-26T16:36:30 EST">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="titleTest" duration-ms="52" started-at="2020-12-26T20:13:57 EST" finished-at="2020-12-26T20:13:57 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iFrameTestLinkTwo -->
-      </class> <!-- com.Assurance.Topmost.Iframe.Iframe_ClickElementsInTheIfame -->
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="urlTest()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="urlTest" duration-ms="3284" started-at="2020-12-26T20:13:57 EST" finished-at="2020-12-26T20:14:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="destroy" is-config="true" duration-ms="2024" started-at="2020-12-26T20:14:00 EST" finished-at="2020-12-26T20:14:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.Assurance.Topmost.Iframe.TitleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
