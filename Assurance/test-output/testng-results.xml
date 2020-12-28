@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19576" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:14:02 EST">
+  <suite name="Default suite" duration-ms="24818" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:36 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19576" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:14:02 EST">
-      <class name="com.Assurance.Topmost.Iframe.TitleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="setup" is-config="true" duration-ms="14113" started-at="2020-12-26T20:13:43 EST" finished-at="2020-12-26T20:13:57 EST">
+    <test name="Default test" duration-ms="24818" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:36 EST">
+      <class name="webElementCommands.InputBox">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webElementCommands.InputBox@6737fd8f]" name="setup" is-config="true" duration-ms="14575" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:26 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="titleTest" duration-ms="52" started-at="2020-12-26T20:13:57 EST" finished-at="2020-12-26T20:13:57 EST">
+        <test-method status="PASS" signature="inputWebElementTest()[pri:0, instance:webElementCommands.InputBox@6737fd8f]" name="inputWebElementTest" duration-ms="10172" started-at="2020-12-27T19:56:26 EST" finished-at="2020-12-27T19:56:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="urlTest()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="urlTest" duration-ms="3284" started-at="2020-12-26T20:13:57 EST" finished-at="2020-12-26T20:14:00 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.Assurance.Topmost.Iframe.TitleTest@72b6cbcc]" name="destroy" is-config="true" duration-ms="2024" started-at="2020-12-26T20:14:00 EST" finished-at="2020-12-26T20:14:02 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-      </class> <!-- com.Assurance.Topmost.Iframe.TitleTest -->
+        </test-method> <!-- inputWebElementTest -->
+      </class> <!-- webElementCommands.InputBox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
