@@ -3,6 +3,7 @@ package interfaceMethodChaining;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -33,6 +34,11 @@ public class NavigationInterface {
 		
 	driver.navigate().to("https://www.assurancewireless.com/");
 	driver.navigate().to("https://www.salesforce.com/");
+	//recomanded to use page load time out. because driver exe. will not 
+	// wait to load the whole page.
+	driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+	
+	 driver.findElement(By.xpath("(//a[contains(text(),'My Account Login')])[1]")).click();
 	   
 	}
 	

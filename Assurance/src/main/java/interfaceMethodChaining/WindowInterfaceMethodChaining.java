@@ -1,8 +1,10 @@
 package interfaceMethodChaining;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,7 +23,7 @@ public class WindowInterfaceMethodChaining {
 		driver.get("https://www.assurancewireless.com/");
 	} 
 	
-	@Test
+	//@Test
 	public void maximize()  {
 		// EITHER
 
@@ -52,9 +54,11 @@ public class WindowInterfaceMethodChaining {
 	}
 	
 	//@Test
-	public void setPosition()  {
+	public void setPosition() throws InterruptedException  {
 		Point newPoint = new Point(300, 500);// new Point (xOffset, yOffset);
 		driver.manage().window().setPosition(newPoint);
+		Thread.sleep(3000);
+		driver.manage().window().setPosition(new Point(200,400));
 	}
 		
 	//@Test
@@ -64,9 +68,16 @@ public class WindowInterfaceMethodChaining {
 		Point point = driver.manage().window().getPosition();
 		System.out.println("X offset : "+point.x);
 		System.out.println("Y offset : "+ point.y);
+		
+		// this will tell us what is the position in our loging element is.
+		
+		WebElement login = driver.findElement(By.xpath("(//a[contains(text(),'My Account Login')])[1]"));
+		Dimension loginDimension=login.getSize();
+		System.out.println(loginDimension);
+		//System.out.println("Dimension"+login.getSize());
 	}
 	
-	//@Test
+	@Test
 		public void setsize()  {
 		// new Dimension (width, height);
 		Dimension newDimension = new Dimension(200, 300);
