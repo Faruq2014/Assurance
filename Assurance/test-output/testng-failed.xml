@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webElementCommands.InputBox">
+      <class name="locators.CSS.CSS_Child">
         <methods>
-          <include name="inputWebElementTest"/>
           <include name="setup"/>
+          <include name="GChild2_MoseHver_dropDown_CSS_Class_Test"/>
         </methods>
-      </class> <!-- webElementCommands.InputBox -->
+      </class> <!-- locators.CSS.CSS_Child -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

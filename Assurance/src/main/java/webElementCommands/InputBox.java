@@ -60,7 +60,7 @@ public class InputBox {
 	// how about if you do not have a submit button.
 	driver.findElement(By.name("vkey")).sendKeys(Keys.ENTER);// vkey is the password locator.
 	Thread.sleep(3000);
-	driver.quit();
+	//driver.quit();
 	}
 
 }

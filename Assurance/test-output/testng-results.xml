@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24818" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:36 EST">
+  <suite name="Default suite" duration-ms="24734" started-at="2021-01-02T20:44:30 EST" finished-at="2021-01-02T20:44:55 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24818" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:36 EST">
-      <class name="webElementCommands.InputBox">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webElementCommands.InputBox@6737fd8f]" name="setup" is-config="true" duration-ms="14575" started-at="2020-12-27T19:56:12 EST" finished-at="2020-12-27T19:56:26 EST">
+    <test name="Default test" duration-ms="24734" started-at="2021-01-02T20:44:30 EST" finished-at="2021-01-02T20:44:55 EST">
+      <class name="locators.Attribute.Attribute_Class">
+        <test-method status="PASS" signature="setup()[pri:0, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="setup" is-config="true" duration-ms="17933" started-at="2021-01-02T20:44:30 EST" finished-at="2021-01-02T20:44:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inputWebElementTest()[pri:0, instance:webElementCommands.InputBox@6737fd8f]" name="inputWebElementTest" duration-ms="10172" started-at="2020-12-27T19:56:26 EST" finished-at="2020-12-27T19:56:36 EST">
+        <test-method status="PASS" signature="topmost_Class_Test()[pri:0, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="topmost_Class_Test" duration-ms="272" started-at="2021-01-02T20:44:48 EST" finished-at="2021-01-02T20:44:49 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inputWebElementTest -->
-      </class> <!-- webElementCommands.InputBox -->
+        </test-method> <!-- topmost_Class_Test -->
+        <test-method status="PASS" signature="tinyText_Class_Test()[pri:1, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="tinyText_Class_Test" duration-ms="44" started-at="2021-01-02T20:44:49 EST" finished-at="2021-01-02T20:44:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tinyText_Class_Test -->
+        <test-method status="PASS" signature="carousel_Class_Test()[pri:2, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="carousel_Class_Test" duration-ms="91" started-at="2021-01-02T20:44:49 EST" finished-at="2021-01-02T20:44:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carousel_Class_Test -->
+        <test-method status="PASS" signature="logIN_class_Test()[pri:4, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="logIN_class_Test" duration-ms="4676" started-at="2021-01-02T20:44:49 EST" finished-at="2021-01-02T20:44:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIN_class_Test -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:locators.Attribute.Attribute_Class@2d8f65a4]" name="finishTest" is-config="true" duration-ms="1563" started-at="2021-01-02T20:44:53 EST" finished-at="2021-01-02T20:44:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- locators.Attribute.Attribute_Class -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
