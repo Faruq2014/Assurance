@@ -33,7 +33,7 @@ public class XpathContain {
 	 * @throws InterruptedException
 	 */
 	@Test
-	public void contains() throws InterruptedException {
+	public void containsText() throws InterruptedException {
 		/* //tag[contains(@attribute,'value')] */
 		WebElement img=driver.findElement(By.xpath("//img[contains(@alt,'Assurance')]"));
 		System.out.println(img.isEnabled());
@@ -48,6 +48,11 @@ public class XpathContain {
 		
 		WebElement ls=driver.findElement(By.xpath("(//a[contains(text(),'Lifeline Serv')])[1]"));
 		System.out.println(ls.getText());
+	}
+	@Test
+	public void containsAttribute() throws InterruptedException {
+		/* //tag[contains(@attribute,'value')] */
+		driver.findElement(By.xpath("(//*[contains(@class,'form-control')])[1]"));
 	}
 	
 	@AfterTest

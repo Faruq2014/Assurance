@@ -19,7 +19,7 @@ public class Iframe_ClickElementsInTheIfame {
 		driver.get("https://www.assurancewireless.com/");
 	} 
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void iFrameTestLinkOne() throws InterruptedException {
 			 Thread.sleep(5000); 
 			 driver.switchTo().frame(0);
@@ -29,7 +29,7 @@ public class Iframe_ClickElementsInTheIfame {
 	
 		}
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void iFrameTestLinkTwo() throws InterruptedException {
 			 Thread.sleep(5000); 
 			 driver.switchTo().frame(0);

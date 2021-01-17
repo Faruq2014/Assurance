@@ -82,13 +82,13 @@ public class XpathXesFollowing {
 			
 		}
 	
-	
-	@AfterTest
-	public void finishTest() {
-		if (driver!=null) {
-			driver.quit();
-		}
-	}
+			
+			@AfterTest
+			public void finishTest() {
+				if (driver!=null) {
+					driver.quit();
+				}
+			}
 
 	
 

@@ -32,7 +32,7 @@ public class XpathXesFollowingImageSlider {
 	} 
 	
 	
-		@Test(priority=1)
+		//@Test(priority=1)
 	public void followingTest() throws InterruptedException {	
 		WebElement zip=driver.findElement(By.xpath("(//*[@id='item-0']//following::a[1])[1]"));
 		System.out.println(zip.getText());
@@ -40,7 +40,7 @@ public class XpathXesFollowingImageSlider {
 		
 	}
 		
-		//@Test(priority=2)
+		@Test(priority=2)
 		public void followingTest2() throws InterruptedException {	
 			WebElement zip=driver.findElement(By.xpath("(//*[@id='item-1']//following::a[1])[1]"));
 			System.out.println(zip.getText());
