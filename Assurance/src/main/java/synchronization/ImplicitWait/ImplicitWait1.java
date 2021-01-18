@@ -22,7 +22,7 @@ public class ImplicitWait1 {
 	public void openApp() {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		driver.get("");
+		driver.get("https://www.assurancewireless.com/");
 		// implicit wait work for two methods, findElement, findElements
 		// it's scope is global. 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

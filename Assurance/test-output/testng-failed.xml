@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="synchronization.FluentWait.FluentWait2">
+      <class name="synchronization.ImplicitWait.ImplicitWait1">
         <methods>
-          <include name="setup"/>
-          <include name="clickOnCourasoul2"/>
+          <include name="findElementsTest"/>
+          <include name="openApp"/>
+          <include name="findElementTest"/>
         </methods>
-      </class> <!-- synchronization.FluentWait.FluentWait2 -->
+      </class> <!-- synchronization.ImplicitWait.ImplicitWait1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -33,12 +33,12 @@ public class IframeToBePresent {
 	// it is very important to have waiting condition for frame.
 		// implicit wait only help find element and find elements methods
 		// page load only help to load the page.
-		//wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
-		driver.switchTo().frame(0);
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(0));
+		//driver.switchTo().frame(0);
 		// without frame to be available method this will fail, because it is taking long time to load.
 		 WebElement ele=driver.findElement(By.xpath("//*[@id='u_0_1']"));
 		System.out.println("Link one text "+ele.getText());	 
-		driver.findElement(By.xpath("//*[@id='u_0_1']")).click();
+		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 	
 	}
 

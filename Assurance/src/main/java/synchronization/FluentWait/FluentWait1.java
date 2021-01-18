@@ -35,7 +35,9 @@ import io.netty.util.Timeout;
 		public void clickOnCourasou() {
 			System.out.println("open");
 			WebElement csoul1=driver.findElement(By.xpath("//*[contains(text(),'Get Started')]"));
-			Wait wait = new WebDriverWait(driver, 30);
+			
+			Wait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+			
 			wait.until(ExpectedConditions.elementToBeClickable(csoul1));
 			System.out.println(csoul1.getText()+csoul1.getAttribute("innerHTML"));
 	             csoul1.click();
@@ -45,10 +47,13 @@ import io.netty.util.Timeout;
 		public void clickOnCourasoul() {
 			System.out.println("open");
 			WebElement csoul1=driver.findElement(By.xpath("//*[contains(text(),'Get Started')]"));
-			FluentWait<WebDriver> Fwait = new FluentWait<WebDriver>(driver)
-					.withTimeout(Duration.ofSeconds(20))
-					  .pollingEvery(Duration.ofSeconds(4))
+			
+			
+			Wait<WebDriver> Fwait = new FluentWait<WebDriver>(driver)
+					.withTimeout(Duration.ofSeconds(30))
+					  .pollingEvery(Duration.ofSeconds(5))
 					  .ignoring(NoSuchElementException.class);
+			
 			Fwait.until(ExpectedConditions.elementToBeClickable(csoul1));
 			System.out.println(csoul1.getText()+csoul1.getAttribute("innerHTML"));
 	             csoul1.click();
