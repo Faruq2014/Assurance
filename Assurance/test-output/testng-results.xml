@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="6" total="12" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14657" started-at="2021-01-17T20:24:20 EST" finished-at="2021-01-17T20:24:35 EST">
+  <suite name="Login Suite" duration-ms="32179" started-at="2021-02-06T21:18:13 EST" finished-at="2021-02-06T21:18:46 EST">
     <groups>
+      <group name="functional">
+        <method signature="LoginTest.myAccountLoginLinkTest()[pri:1, instance:pageObjectModelTests.LoginTest@1f57539]" name="myAccountLoginLinkTest" class="pageObjectModelTests.LoginTest"/>
+        <method signature="LoginTest.passwordLinkTest()[pri:4, instance:pageObjectModelTests.LoginTest@1f57539]" name="passwordLinkTest" class="pageObjectModelTests.LoginTest"/>
+        <method signature="LoginTest.submitTest()[pri:5, instance:pageObjectModelTests.LoginTest@1f57539]" name="submitTest" class="pageObjectModelTests.LoginTest"/>
+        <method signature="LoginTest.switchToChildWindowTest()[pri:2, instance:pageObjectModelTests.LoginTest@1f57539]" name="switchToChildWindowTest" class="pageObjectModelTests.LoginTest"/>
+        <method signature="LoginTest.userNameTest()[pri:3, instance:pageObjectModelTests.LoginTest@1f57539]" name="userNameTest" class="pageObjectModelTests.LoginTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="LoginTest.loginRegresationTest()[pri:6, instance:pageObjectModelTests.LoginTest@2173f6d9]" name="loginRegresationTest" class="pageObjectModelTests.LoginTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="14657" started-at="2021-01-17T20:24:20 EST" finished-at="2021-01-17T20:24:35 EST">
-      <class name="synchronization.ImplicitWait.ImplicitWait1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:synchronization.ImplicitWait.ImplicitWait1@27a8c74e]" name="openApp" is-config="true" duration-ms="11091" started-at="2021-01-17T20:24:20 EST" finished-at="2021-01-17T20:24:31 EST">
+    <test name="Functional Test" duration-ms="15397" started-at="2021-02-06T21:18:13 EST" finished-at="2021-02-06T21:18:29 EST">
+      <class name="pageObjectModelTests.LoginTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:pageObjectModelTests.LoginTest@1f57539]" name="openApp" is-config="true" duration-ms="8916" started-at="2021-02-06T21:18:13 EST" finished-at="2021-02-06T21:18:22 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="findElementTest()[pri:1, instance:synchronization.ImplicitWait.ImplicitWait1@27a8c74e]" name="findElementTest" duration-ms="2894" started-at="2021-01-17T20:24:31 EST" finished-at="2021-01-17T20:24:34 EST">
+        <test-method status="PASS" signature="myAccountLoginLinkTest()[pri:1, instance:pageObjectModelTests.LoginTest@1f57539]" name="myAccountLoginLinkTest" duration-ms="1072" started-at="2021-02-06T21:18:22 EST" finished-at="2021-02-06T21:18:24 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findElementTest -->
-        <test-method status="PASS" signature="findElementsTest()[pri:2, instance:synchronization.ImplicitWait.ImplicitWait1@27a8c74e]" name="findElementsTest" duration-ms="561" started-at="2021-01-17T20:24:34 EST" finished-at="2021-01-17T20:24:35 EST">
+        </test-method> <!-- myAccountLoginLinkTest -->
+        <test-method status="PASS" signature="switchToChildWindowTest()[pri:2, instance:pageObjectModelTests.LoginTest@1f57539]" name="switchToChildWindowTest" duration-ms="1929" started-at="2021-02-06T21:18:24 EST" finished-at="2021-02-06T21:18:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findElementsTest -->
-      </class> <!-- synchronization.ImplicitWait.ImplicitWait1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- switchToChildWindowTest -->
+        <test-method status="PASS" signature="userNameTest()[pri:3, instance:pageObjectModelTests.LoginTest@1f57539]" name="userNameTest" duration-ms="1694" started-at="2021-02-06T21:18:25 EST" finished-at="2021-02-06T21:18:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameTest -->
+        <test-method status="PASS" signature="passwordLinkTest()[pri:4, instance:pageObjectModelTests.LoginTest@1f57539]" name="passwordLinkTest" duration-ms="202" started-at="2021-02-06T21:18:27 EST" finished-at="2021-02-06T21:18:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordLinkTest -->
+        <test-method status="PASS" signature="submitTest()[pri:5, instance:pageObjectModelTests.LoginTest@1f57539]" name="submitTest" duration-ms="283" started-at="2021-02-06T21:18:27 EST" finished-at="2021-02-06T21:18:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageObjectModelTests.LoginTest@1f57539]" name="tearDown" is-config="true" duration-ms="1157" started-at="2021-02-06T21:18:28 EST" finished-at="2021-02-06T21:18:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectModelTests.LoginTest -->
+    </test> <!-- Functional Test -->
+    <test name="Regression Test" duration-ms="16506" started-at="2021-02-06T21:18:29 EST" finished-at="2021-02-06T21:18:46 EST">
+      <class name="pageObjectModelTests.LoginTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:pageObjectModelTests.LoginTest@2173f6d9]" name="openApp" is-config="true" duration-ms="10343" started-at="2021-02-06T21:18:29 EST" finished-at="2021-02-06T21:18:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="loginRegresationTest()[pri:6, instance:pageObjectModelTests.LoginTest@2173f6d9]" name="loginRegresationTest" duration-ms="4510" started-at="2021-02-06T21:18:39 EST" finished-at="2021-02-06T21:18:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRegresationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pageObjectModelTests.LoginTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="1648" started-at="2021-02-06T21:18:44 EST" finished-at="2021-02-06T21:18:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectModelTests.LoginTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Login Suite -->
 </testng-results>
